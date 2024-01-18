@@ -9,46 +9,6 @@
 <title>scratch.py</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
-.s0 { color: #bcbec4;}
-.s1 { color: #bcbec4;}
-.s2 { color: #6aab73;}
-.s3 { color: #cf8e6d;}
-.s4 { color: #2aacb8;}
-.s5 { color: #7a7e85;}
-</style>
-</head>
-<body bgcolor="#1e1f22">
-<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
-<tr><td><center>
-<font face="Arial, Helvetica" color="#000000">
-scratch.py</font>
-</center></td></tr></table>
-<pre><span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;欢迎来到年龄计算器！&quot;</span><span class="s1">)</span>
-
-<span class="s3">class </span><span class="s0">User</span><span class="s1">:</span>
-    <span class="s3">def </span><span class="s0">__init__</span><span class="s1">(</span><span class="s0">self</span><span class="s1">, </span><span class="s0">user_name</span><span class="s1">):</span>
-        <span class="s0">self</span><span class="s1">.</span><span class="s0">name </span><span class="s1">= </span><span class="s0">user_name</span>
-
-<span class="s0">name </span><span class="s1">= </span><span class="s0">input</span><span class="s1">(</span><span class="s2">&quot;请输入您的名字：&quot;</span><span class="s1">)</span>
-<span class="s0">user1 </span><span class="s1">= </span><span class="s0">User</span><span class="s1">(</span><span class="s0">name</span><span class="s1">)</span>
-
-<span class="s3">while True</span><span class="s1">:</span>
-    <span class="s0">ask </span><span class="s1">= </span><span class="s0">input</span><span class="s1">(</span><span class="s2">&quot;您好，&quot; </span><span class="s1">+ </span><span class="s0">user1</span><span class="s1">.</span><span class="s0">name </span><span class="s1">+ </span><span class="s2">&quot;，请问需要查询您的年龄吗？(yes/no) &quot;</span><span class="s1">)</span>
-
-    <span class="s3">if </span><span class="s0">ask </span><span class="s1">== </span><span class="s2">&quot;yes&quot;</span><span class="s1">:</span>
-        <span class="s0">tips </span><span class="s1">= </span><span class="s0">int</span><span class="s1">(</span><span class="s0">input</span><span class="s1">(</span><span class="s2">'您今年几岁了?: '</span><span class="s1">))</span>
-        <span class="s0">print</span><span class="s1">(</span><span class="s2">'恭喜您！您今年' </span><span class="s1">+ </span><span class="s0">str</span><span class="s1">(</span><span class="s0">tips</span><span class="s1">) + </span><span class="s2">'岁啦！</span><span class="s3">\n</span><span class="s2">'</span><span class="s1">)</span>
-
-        <span class="s3">if </span><span class="s0">tips </span><span class="s1">&gt; </span><span class="s4">18</span><span class="s1">:</span>
-            <span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;您已经不算年轻人了&quot;</span><span class="s1">)</span>
-        <span class="s3">elif </span><span class="s0">tips </span><span class="s1">&lt; </span><span class="s4">18</span><span class="s1">:</span>
-            <span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;看来您还很嫩&quot;</span><span class="s1">)</span>
-        <span class="s3">break  </span><span class="s5"># 结束循环</span>
-    <span class="s3">elif </span><span class="s0">ask </span><span class="s1">== </span><span class="s2">&quot;no&quot;</span><span class="s1">:</span>
-        <span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;那下次见&quot;</span><span class="s1">)</span>
-        <span class="s3">break  </span><span class="s5"># 结束循环</span>
-    <span class="s3">else</span><span class="s1">:</span>
-        <span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;请输入 'yes' 或 'no' 以继续。&quot;</span><span class="s1">)</span></pre>
   
 </body>
 </html>
