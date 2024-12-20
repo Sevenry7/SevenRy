@@ -1,7 +1,7 @@
 ﻿.ax_default {
-  font-family:'';
-  font-weight:;
-  font-style:;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
   font-size:13px;
   letter-spacing:normal;
   color:#333333;
@@ -13,6 +13,8 @@
 .box_1 {
 }
 .box_3 {
+}
+.ellipse {
 }
 ._图像 {
 }
@@ -65,7 +67,10 @@
   text-align:left;
 }
 ._文本 {
-  text-align:left;
+  font-family:'';
+  font-weight:;
+  font-style:;
+  text-align:center;
 }
 ._表单提示 {
   color:#999999;
