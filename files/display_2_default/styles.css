@@ -2,7 +2,7 @@
   margin:0px;
   background-image:none;
   position:relative;
-  left:-1px;
+  left:-5px;
   width:1241px;
   margin-left:auto;
   margin-right:auto;
@@ -37,8 +37,8 @@
 #u36 {
   border-width:0px;
   position:absolute;
-  left:1px;
-  top:0px;
+  left:5px;
+  top:-6px;
   width:1241px;
   height:2106px;
   display:flex;
@@ -1114,4 +1114,42 @@
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
+}
+#u61_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:19px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  color:#FFFFFF;
+}
+#u61 {
+  border-width:0px;
+  position:absolute;
+  left:662px;
+  top:620px;
+  width:25px;
+  height:19px;
+  display:flex;
+  color:#FFFFFF;
+}
+#u61 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u61_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
